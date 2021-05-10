@@ -48,6 +48,13 @@ async def cute(ctx):
     await ctx.send(embed=embed)
 
 @client.command()
+async def master(ctx):
+    embed=discord.Embed(title="Creator", description="Rishi Saxena ", color=0x5e1c99)
+    embed.add_field(name="GitHub Profile", value="https://github.com/Alcatraz714", inline=True)
+    embed.set_thumbnail(url="https://i.redd.it/uka8f6zg6a141.png")
+    await ctx.send(embed=embed)
+
+@client.command()
 async def help(ctx):
     embed=discord.Embed(title="My Commands !", description="Here you go Master hmmmph", color=0xFF0080)
     embed.add_field(name="$cute", value="Cute Reactions", inline=True)
@@ -55,7 +62,13 @@ async def help(ctx):
     embed.add_field(name="$daisuki", value="Type of Bot", inline=True)
     embed.add_field(name="$thoughts", value="Regular thoughts", inline=True)
     embed.add_field(name="$free", value="For those loners out there", inline=True)
-    embed.add_field(name="$insultme", value="For those masochists out there", inline=True)
+    embed.add_field(name="$insult", value="For those masochists out there", inline=True)
+    embed.add_field(name="$play", value="add URL after command, youtube links", inline=True)
+    embed.add_field(name="$resume", value="resume the current song", inline=True)
+    embed.add_field(name="$stop", value="stop the current song, removes the song", inline=True)
+    embed.add_field(name="$pause", value="pause the current song", inline=True)
+    embed.add_field(name="$leave", value="leaves the voice channel", inline=True)
+    embed.add_field(name="$master", value="My creator and My real Master", inline=True)
     embed.set_thumbnail(url="https://i.pinimg.com/originals/0f/ce/37/0fce372b50c5939e4e8623282c45f4c4.gif")
     await ctx.send(embed=embed)
 
