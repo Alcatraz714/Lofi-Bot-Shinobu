@@ -1,5 +1,6 @@
 # Lofi-Bot-Shinobu
 Shinobu Oshino Waifu Bot with Cheers and Updatable database Hosted on Replit accessible from Discord itself
+Now added Youtube play features
 ## The .env file is not provided but a format is given without the key.
 key can be found in the Discord Dev portal.
 # Keynotes -
@@ -11,4 +12,4 @@ key can be found in the Discord Dev portal.
 <br />
 
 ## New Embeds look -
-<img align="left" alt="BOTLOFI" width="400px" src="https://user-images.githubusercontent.com/72495317/117660020-45527f80-b1ba-11eb-8cf2-afb98d46b509.PNG" />
+<img align="right" alt="BOTLOFI" width="400px" src="https://user-images.githubusercontent.com/72495317/117660020-45527f80-b1ba-11eb-8cf2-afb98d46b509.PNG" />
